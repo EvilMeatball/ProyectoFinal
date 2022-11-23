@@ -1,0 +1,25 @@
+
+.contenedor{
+    text-align: center;
+    font-size: 2em;
+    color: floralwhite;
+    width: 100%; height: 100%;
+    margin: auto; /*para centrar div */
+    overflow: hidden;
+
+}
+
+#slider{
+    width: 1280px;
+    height: 86px;
+    background-image: url(img/auwuowow.jpg);
+    background-size: 100% 100%;
+
+    animation: slider 60s infinite linear;
+
+}
+
+@keyframes slider {
+    to{ background-position: 1280px;}
+    
+}
